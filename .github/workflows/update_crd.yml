@@ -9,6 +9,6 @@ jobs:
     uses: Aridhia-Open-Source/pipelines/.github/workflows/trigger-task.yml@main
     with:
       DEST_BRANCH: monitor
-      TEMPLATE_PATH: crd/task-test-task-1.yaml
+      TEMPLATE_PATH: crd/task-test-task-1.json
     secrets:
       SA_TOKEN: ${{ secrets.SA_TOKEN }}

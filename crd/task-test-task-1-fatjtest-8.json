@@ -1,0 +1,26 @@
+{
+  "apiVersion": "tasks.federatednode.com/v1",
+  "kind": "Analytics",
+  "metadata": {
+    "name": "test-task-1"
+  },
+  "spec": {
+    "dataset": {
+      "name": "testing",
+      "image": "aridhia-open-source/rtest:latest-dev",
+      "project": "project1"
+    },
+    "results": {
+      "git": {
+        "repository": "Aridhia-Open-Source/Federated-Node-Example-App"
+      }
+    },
+    "user": {
+      "username": "fatjtest",
+      "idpId": "205076700"
+    },
+    "source": {
+      "repository": "fatjtest/analytics-jobs"
+    }
+  }
+}

@@ -6,10 +6,10 @@
   },
   "spec": {
     "dataset": {
-      "name": "testing",
-      "image": "aridhia-open-source/rtest:latest-dev",
-      "project": "project1"
+      "name": "testing2"
     },
+    "image": "aridhia-open-source/rtest:latest-dev",
+    "project": "project1",
     "results": {
       "git": {
         "repository": "Aridhia-Open-Source/Federated-Node-Example-App"

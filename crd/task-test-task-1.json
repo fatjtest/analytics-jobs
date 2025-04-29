@@ -14,14 +14,6 @@
       "git": {
         "repository": "Aridhia-Open-Source/Federated-Node-Example-App"
       }
-    },
-    "source": {
-      "repository": "fatjtest/analytics-jobs",
-      "auth_type": "none"
-    },
-    "user": {
-      "username": "fatjtest",
-      "idpId": "205076700"
     }
   }
 }

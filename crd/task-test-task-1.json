@@ -11,8 +11,8 @@
     "image": "aridhia-open-source/rtest:latest-dev",
     "project": "projectTest",
     "results": {
-      "git": {
-        "repository": "Aridhia-Open-Source/Federated-Node-Example-App"
+      "github": {
+        "repository": "fatjtest/analytics-jobs"
       }
     }
   }

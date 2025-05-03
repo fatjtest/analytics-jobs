@@ -2,7 +2,7 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "test-task-r-2"
+    "name": "testtask"
   },
   "spec": {
     "dataset": {
@@ -13,11 +13,6 @@
     "results": {
       "git": {
         "repository": "Aridhia-Open-Source/Federated-Node-Example-App"
-      }
-    },
-    "delivery": {
-      "github": {
-        "repository": "fatjtest/analytics-jobs"
       }
     }
   }

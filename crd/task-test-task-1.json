@@ -6,6 +6,7 @@
   },
   "spec": {
     "dataset": {
+      "id": 123,
       "name": "testing1"
     },
     "image": "aridhia-open-source/rtest:latest-dev",

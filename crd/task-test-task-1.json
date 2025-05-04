@@ -2,11 +2,11 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "testask-super-2"
+    "name": "testask-fatj"
   },
   "spec": {
     "dataset": {
-      "name": "testing1"
+      "name": "testing"
     },
     "image": "aridhia-open-source/rtest:latest-dev",
     "project": "project2"

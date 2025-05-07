@@ -2,7 +2,7 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "testfatjcvlm12"
+    "name": "testfatjcvlmfinal"
   },
   "spec": {
     "dataset": {

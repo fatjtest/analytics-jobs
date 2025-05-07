@@ -6,9 +6,9 @@
   },
   "spec": {
     "dataset": {
-      "name": "kcargocdn_dbase"
+      "name": "databasephems"
     },
-    "image": "219230735619.dkr.ecr.eu-west-1.amazonaws.com/phemstest",
+    "image": "219230735619.dkr.ecr.eu-west-1.amazonaws.com/phemstest:latest",
     "project": "project2",
     "user": {
       "username": "fatjtest",

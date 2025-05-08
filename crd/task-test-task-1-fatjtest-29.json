@@ -2,14 +2,14 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "testcvlmfefe5"
+    "name": "testcvlmfefe6"
   },
   "spec": {
     "dataset": {
       "name": "databasephems"
     },
     "image": "219230735619.dkr.ecr.eu-west-1.amazonaws.com/phemstest:latest",
-    "project": "project2",
+    "project": "project",
     "user": {
       "username": "fatjtest",
       "idpId": "205076700"

@@ -9,7 +9,7 @@
       "name": "databasephems"
     },
     "image": "219230735619.dkr.ecr.eu-west-1.amazonaws.com/phemstest:latest",
-    "project": "project",
+    "project": "project_test",
     "user": {
       "username": "fatjtest",
       "idpId": "205076700"

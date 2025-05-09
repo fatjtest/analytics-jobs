@@ -8,7 +8,7 @@
     "dataset": {
       "name": "databasephems"
     },
-    "image": "219230735619.dkr.ecr.eu-west-1.amazonaws.com/phemstest:latest",
+    "image": "ghcr.io/fatjtest/phemstest:latest",
     "project": "project_test",
     "user": {
       "username": "fatjtest",

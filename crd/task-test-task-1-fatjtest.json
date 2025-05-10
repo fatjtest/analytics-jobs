@@ -2,13 +2,13 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "task5"
+    "name": "taskcvlm1"
   },
   "spec": {
     "dataset": {
       "name": "databasephems"
     },
-    "image": "ghcr.io/fatjtest/phemstest:latest",
+    "image": "ghcr.io/phemstest:latest",
     "project": "project_test",
     "user": {
       "username": "fatjtest",

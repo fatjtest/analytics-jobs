@@ -1,0 +1,21 @@
+{
+  "apiVersion": "tasks.federatednode.com/v1",
+  "kind": "Analytics",
+  "metadata": {
+    "name": "taskcvlfinalfe"
+  },
+  "spec": {
+    "dataset": {
+      "name": "databasephems"
+    },
+    "image": "fatjtest/fatjtest:3",
+    "project": "project_test",
+    "user": {
+      "username": "fatjtest",
+      "idpId": "205076700"
+    },
+    "source": {
+      "repository": "fatjtest/analytics-jobs"
+    }
+  }
+}

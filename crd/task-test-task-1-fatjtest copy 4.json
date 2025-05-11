@@ -2,7 +2,7 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "taskcvlfinalfe3"
+    "name": "taskcvlfinalfe45523"
   },
   "spec": {
     "dataset": {
@@ -12,7 +12,8 @@
     "project": "project_test",
     "user": {
       "username": "fatjtest",
-      "idpId": "205076700"
+      "idpId": "205076700",
+      "email": "fatorres@opentrends.net"
     },
     "source": {
       "repository": "fatjtest/analytics-jobs"

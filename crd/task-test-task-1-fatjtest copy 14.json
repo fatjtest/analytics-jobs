@@ -2,13 +2,13 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "task2efdf5rtrfghgfht454"
+    "name": "tas3"
   },
   "spec": {
     "dataset": {
       "name": "databasephems"
     },
-    "image": "fatjtest/fatjtest:3",
+    "image": "docker.io/fatjtest/fatjtest:3",
     "project": "project_test",
     "user": {
       "username": "fatjtest",

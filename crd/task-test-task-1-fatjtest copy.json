@@ -2,7 +2,7 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "test_omod"
+    "name": "omod"
   },
   "spec": {
     "dataset": {

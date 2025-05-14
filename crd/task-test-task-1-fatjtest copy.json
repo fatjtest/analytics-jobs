@@ -2,13 +2,13 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "omod2"
+    "name": "omod3"
   },
   "spec": {
     "dataset": {
       "name": "phems"
     },
-    "image": "docker.io/fatjtest/phems_test_images:2",
+    "image": "docker.io/fatjtest/phems_test_images:3",
     "project": "Token Transfer Analysis",
     "user": {
       "username": "fatjtest",

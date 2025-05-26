@@ -2,7 +2,7 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "ta345454"
+    "name": "tasskk454"
   },
   "spec": {
     "dataset": {
@@ -17,6 +17,10 @@
     },
     "source": {
       "repository": "fatjtest/analytics-jobs"
+    },
+    "db_query": {
+      "dialect": "postgres",
+      "query": "SELECT AVG(speed) AS \"Average Speed\" FROM carspeed;"
     }
   }
 }

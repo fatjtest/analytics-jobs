@@ -6,10 +6,10 @@
   },
   "spec": {
     "dataset": {
-      "name": "databasephems2"
+      "name": "databasephems"
     },
     "image": "docker/fatjtest/fatjtest:4",
-    "project": "project_test",
+    "project": "phems_test",
     "user": {
       "username": "fatjtest",
       "idpId": "205076700",

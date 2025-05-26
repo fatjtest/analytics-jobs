@@ -19,8 +19,8 @@
       "repository": "fatjtest/analytics-jobs"
     },
     "db_query": {
-      "dialect": "postgres",
-      "query": "SELECT MAX(speed) AS \"Average Speed\" FROM carspeed;"
+      "dialect": "",
+      "query": ""
     }
   }
 }

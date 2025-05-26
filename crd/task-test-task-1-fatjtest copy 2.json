@@ -2,7 +2,7 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "tas37454"
+    "name": "t7454"
   },
   "spec": {
     "dataset": {

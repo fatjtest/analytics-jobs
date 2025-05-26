@@ -2,11 +2,11 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "ta454"
+    "name": "t4454554"
   },
   "spec": {
     "dataset": {
-      "name": "databasephems"
+      "name": "databasephems2"
     },
     "image": "docker/fatjtest/fatjtest:4",
     "project": "project_test",

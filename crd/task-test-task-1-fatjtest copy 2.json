@@ -20,7 +20,7 @@
     },
     "db_query": {
       "dialect": "postgres",
-      "query": "SELECT AVG(speed) AS \"Average Speed\" FROM carspeed;"
+      "query": "SELECT AVG(speed) AS Average Speed FROM carspeed;"
     }
   }
 }

@@ -2,14 +2,14 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "taskomod2"
+    "name": "taskt545t"
   },
   "spec": {
     "dataset": {
-      "name": "phems"
+      "name": "databasephems"
     },
-    "image": "docker.io/fatjtest/phems_test_images:3",
-    "project": "Token Transfer Analysis",
+    "image": "docker.io/fatjtest/shiny_app:1",
+    "project": "project_test",
     "user": {
       "username": "fatjtest",
       "idpId": "205076700",
@@ -17,6 +17,10 @@
     },
     "source": {
       "repository": "fatjtest/analytics-jobs"
+    },
+    "db_query": {
+      "dialect": "postgres",
+      "query": "SELECT MAX(speed) AS \"Average Speed\" FROM carspeed;"
     }
   }
 }

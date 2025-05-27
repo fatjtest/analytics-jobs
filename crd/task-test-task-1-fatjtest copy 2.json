@@ -18,9 +18,16 @@
     "source": {
       "repository": "fatjtest/analytics-jobs"
     },
+    "env": {
+      "PGHOST": "postgres.service.cluster.local",
+      "PGPORT": "5432",
+      "PGDATABASE": "speed_db",
+      "PGUSER": "speed_user",
+      "PGPASSWORD": "supersecret"
+    },
     "db_query": {
-      "dialect": "",
-      "query": ""
+      "dialect": "postgres",
+      "query": "SELECT speed AS Speed FROM carspeed;"
     }
   }
 }

@@ -2,7 +2,7 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "ta4fdasdff6565"
+    "name": "ta4fdasdfddff6565"
   },
   "spec": {
     "dataset": {
@@ -19,11 +19,12 @@
       "repository": "fatjtest/analytics-jobs"
     },
     "env": {
-      "PGHOST": "postgres.service.cluster.local",
-      "PGPORT": "5432",
-      "PGDATABASE": "speed_db",
-      "PGUSER": "speed_user",
-      "PGPASSWORD": "supersecret"
+      "PGHOST": "10.0.105.41",
+      "PGPORT": "9999",
+      "PGDATABASE": "phems",
+      "PGUSER": "phems_select",
+      "PGPASSWORD": "HdRM|eNv7!;h#24u",
+      "JDBC_PATH": "/mnt/drivers/denodo-vdp-jdbcdriver.jar"
     },
     "db_query": {
       "dialect": "postgres",

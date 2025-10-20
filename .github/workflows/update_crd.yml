@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - argo/*.json
+      - crd/*.json
 
 permissions:
   contents: write
@@ -16,7 +16,7 @@ jobs:
     uses: Aridhia-Open-Source/pipelines/.github/workflows/trigger-task.yml@main
     with:
       # To change to the actual name
-      DEST_BRANCH: argocd
-      TEMPLATE_PATH: argo/task.json
+      DEST_BRANCH: monitor
+      TEMPLATE_PATH: crd/task.json
     secrets:
       SA_TOKEN: ${{ secrets.GITHUB_TOKEN }}

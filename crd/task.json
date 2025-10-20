@@ -2,7 +2,7 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "testhos"
+    "name": "testhos1"
   },
   "spec": {
     "db_query": {

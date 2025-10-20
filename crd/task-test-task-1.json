@@ -2,13 +2,17 @@
   "apiVersion": "tasks.federatednode.com/v1",
   "kind": "Analytics",
   "metadata": {
-    "name": "testaskfatj3"
+    "name": "testHos"
   },
   "spec": {
-    "dataset": {
-      "name": "testing"
+    "db_query": {
+      "query": "SELECT * FROM person LIMIT 2000",
+      "dialect": "postgres"
     },
-    "image": "aridhia-open-source/rtest:latest-dev",
-    "project": "project2"
+    "dataset": {
+      "name": "databasephems"
+    },
+    "image": "docker.io/fatjtest/shiny_app:1",
+    "project": "testupaduser"
   }
 }

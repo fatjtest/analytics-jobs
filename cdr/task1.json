@@ -1,0 +1,18 @@
+{
+  "apiVersion": "tasks.federatednode.com/v1",
+  "kind": "Analytics",
+  "metadata": {
+    "name": "testHos"
+  },
+  "spec": {
+    "db_query": {
+      "query": "SELECT * FROM person LIMIT 2000",
+      "dialect": "postgres"
+    },
+    "dataset": {
+      "name": "databasephems"
+    },
+    "image": "docker.io/fatjtest/shiny_app:1",
+    "project": "testupaduser"
+  }
+}

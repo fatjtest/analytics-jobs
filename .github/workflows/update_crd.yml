@@ -1,14 +1,22 @@
 name: Update Task Definition
-run-name: update_crd
+run-name: update_task
 on:
   push:
     branches:
       - main
+    paths:
+      - argo/*.json
+
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update:
     uses: Aridhia-Open-Source/pipelines/.github/workflows/trigger-task.yml@main
     with:
-      DEST_BRANCH: monitor
-      TEMPLATE_PATH: crd/task-test-task-1.json
+      # To change to the actual name
+      DEST_BRANCH: argocd
+      TEMPLATE_PATH: argo/task.json
     secrets:
-      SA_TOKEN: ${{ secrets.SA_TOKEN }}
+      SA_TOKEN: ${{ secrets.GITHUB_TOKEN }}
